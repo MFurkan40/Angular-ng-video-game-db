@@ -11,3 +11,17 @@ body * {
   padding: 0;
   box-sizing: border-box;
 }
+
+.loading {
+  background-color: #151515;
+  height: calc(100% - 120px);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 9999 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
